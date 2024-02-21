@@ -1,0 +1,97 @@
+body {
+    background-color: rgba(128, 128, 128, 0.26);
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px grey;
+    background-color: white;
+    margin: 0 auto;
+}
+
+input {
+    border-radius: 8px;
+    border-color: whitesmoke;
+}
+a {
+    text-decoration: none;
+    font-size: small;
+    float: right;
+    margin-top: 0px;
+    padding-right: 25px;
+    padding-left: 20px;
+    color: blue;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    padding-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+main {
+    margin: 0 auto;
+    
+}
+
+.post {
+    margin: 50px auto;
+    width: 350px;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-foto{
+    width: 350px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+}
+.nav-foto img {
+    width: 30px;
+    height: 30px;
+    padding-left: 3px;
+    margin-right: 1px;
+    float: left;
+}
+.nav-foto h2 {
+    font-size: small;
+    float:left;
+    margin-left: 0 auto;
+}
+.nav-foto span {
+    font-size: medium;
+    float:inline-end;
+    margin-left: 150px;
+    padding-left: 40px;
+    padding-right: 5px;
+}
+.body-foto img {
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    
+} 
+.foot-foto {
+    align-content: center;
+    text-align:left;
+    font-size: small;
+    font-weight: 500;
+    background-color: white;
+    margin: 5px 5px;
+    padding: 3px;
+}
+
+
